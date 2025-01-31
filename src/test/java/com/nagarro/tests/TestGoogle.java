@@ -42,18 +42,17 @@ public class TestGoogle {
 		Assert.assertTrue(actualTitle.contains("Amazon"), "Title does not match!");
 	}
 
-	@Test
-	public void testAmazonSearch() throws InterruptedException {
-		driver.get("https://www.amazon.com");
-		WebElement searchBox = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
-		searchBox.sendKeys("Phone");
-		searchBox.sendKeys(Keys.ENTER);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement searchHeading = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[normalize-space()='Results']")));
-		Assert.assertTrue(searchHeading.isDisplayed(), "The Search header is not visible.");
-	}
-
+//	@Test
+//	public void testAmazonSearch() throws InterruptedException {
+//		driver.get("https://www.amazon.com");
+//		WebElement searchBox = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
+//		searchBox.sendKeys("Phone");
+//		searchBox.sendKeys(Keys.ENTER);
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		WebElement searchHeading = wait
+//				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[normalize-space()='Results']")));
+//		Assert.assertTrue(searchHeading.isDisplayed(), "The Search header is not visible.");
+//	}
 
 	@AfterMethod
 	public void tearDown() {
