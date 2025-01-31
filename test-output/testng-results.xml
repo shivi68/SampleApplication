@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-31T14:59:23 IST" name="Default suite" finished-at="2025-01-31T14:59:46 IST" duration-ms="23194">
+    <groups>
+    </groups>
+    <test started-at="2025-01-31T14:59:23 IST" name="Default test" finished-at="2025-01-31T14:59:46 IST" duration-ms="23194">
+      <class name="com.nagarro.tests.TestGoogle">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:23 IST" name="setup" finished-at="2025-01-31T14:59:28 IST" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAmazonSearch()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:28 IST" name="testAmazonSearch" finished-at="2025-01-31T14:59:37 IST" duration-ms="8845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:37 IST" name="tearDown" finished-at="2025-01-31T14:59:37 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:37 IST" name="setup" finished-at="2025-01-31T14:59:38 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAmazonTitle()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:38 IST" name="testAmazonTitle" finished-at="2025-01-31T14:59:40 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:40 IST" name="tearDown" finished-at="2025-01-31T14:59:41 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:41 IST" name="setup" finished-at="2025-01-31T14:59:42 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTitle()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:42 IST" name="testTitle" finished-at="2025-01-31T14:59:46 IST" duration-ms="3974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.tests.TestGoogle@36ebc363]" started-at="2025-01-31T14:59:46 IST" name="tearDown" finished-at="2025-01-31T14:59:46 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.tests.TestGoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
